@@ -1,3 +1,3 @@
 # Cocoa-clone
 
-i will be the best programer.
+HTML & CSS is fucking good to break a brain.
