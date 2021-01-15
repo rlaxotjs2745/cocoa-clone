@@ -17,11 +17,18 @@
   transition: border-color 0.3s ease-in-out;
 }
 #login-form input:focus {
-  border-color: rgba(94, 248, 189, 0.897);
+  border-color: var(--green);
 }
 
 #login-form a {
   text-align: center;
   text-decoration: none;
   color: black;
+  font-size: 15px;
+}
+#login-form input[type="submit"] {
+  background-color: var(--green);
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
 }

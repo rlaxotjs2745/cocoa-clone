@@ -1,9 +1,10 @@
-@import "reset.css";
+@import "components/reset.css";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
-@import "statusbar.css";
-@import "welcomeheader.css";
-@import "variables.css";
-@import "loginform.css";
+@import "components/statusbar.css";
+@import "screen/welcomeheader.css";
+@import "components/variables.css";
+@import "screen/loginform.css";
+@import "components/nav-var.css";
 
 body {
   font-family: "Open Sans", sans-serif;
