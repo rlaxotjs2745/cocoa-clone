@@ -1,0 +1,41 @@
+.nav {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: rgba(0, 0, 0, 0.1) solid 1px;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__btn {
+}
+.nav__link {
+  position: relative;
+}
+.nav__chatnum {
+  position: absolute;
+  color: #f9f9fa;
+  background-color: tomato;
+  font-size: 12px;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  left: 13px;
+  bottom: 11px;
+}
+.nav__finddot {
+  position: absolute;
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  left: 20px;
+  bottom: 20px;
+}
